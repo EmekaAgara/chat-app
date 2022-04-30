@@ -22,7 +22,7 @@ const RegisterScreen = ({ navigation }) => {
       auth     
           .createUserWithEmailAndPassword(email, password)
           .then((authUser) => {
-          authUser.user.update({
+          authUser.user.updateProfile({
             displayName:name,
             photoURL: imageUrl || "https://cdn.vectorstock.com/i/1000x1000/66/14/default-avatar-photo-placeholder-profile-picture-vector-21806614.webp",
          });
