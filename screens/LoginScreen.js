@@ -33,7 +33,7 @@ const LoginScreen = ({ navigation }) => {
       <Image
         source={{
           uri:
-          "https://images.unsplash.com/photo-1557682224-5b8590cd9ec5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHVycGxlJTIwbG9nb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+          "https://i.ibb.co/BLhN9mk/Fedulogo-1-1.png",
         }}
         style={{ width:200, height: 200, marginBottom:30}}
       />
